@@ -1,3 +1,39 @@
-.env               # token do bot
-__pycache__/       # arquivos compilados do Python
-*.pyc              # qualquer arquivo .pyc solto
+# Variáveis de ambiente
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos CSV de gastos (dados pessoais)
+gastos_*.csv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Distribuição Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
