@@ -1,1 +1,3 @@
-.env
+.env               # token do bot
+__pycache__/       # arquivos compilados do Python
+*.pyc              # qualquer arquivo .pyc solto
